@@ -1,18 +1,18 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH=choreo \
-    UUID=a98951d6-d182-477e-bf29-7c146fbb4fce \
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
-    NEZHA_TLS= \
-    WEB_DOMAIN=cho.turningpage.online \
-    ARGO_DOMAIN=cho-ws.turningpage.online \
-    SSH_DOMAIN=cho-ssh.turningpage.online \
-    ARGO_AUTH={"AccountTag":"7d3ce92497c3a8c9f4fe0d134175b3e0","TunnelSecret":"Knboc3GX35TgRYCyutKZUa4vJs5lHof38WP02FC7QzI=","TunnelID":"176db53b-fe6b-4bf6-9cc7-e577c6fd7e18"} \
-    WEB_USERNAME=lordsaeed \
-    WEB_PASSWORD=6103
+ARG WSPATH=cho \
+    UUID=9b50bafa-705e-4566-987c-171e52acdf5d \
+    NEZHA_SERVER=43.143.186.131 \
+    NEZHA_PORT=5555 \
+    NEZHA_KEY=mI03lKSBYP3iCTgzId \
+    NEZHA_TLS=0 \
+    WEB_DOMAIN=cho.dhty.eu.org \
+    ARGO_DOMAIN=cho-ws.dhty.eu.org \
+    SSH_DOMAIN=cho-ssh.dhty.eu.org \
+    ARGO_AUTH={"AccountTag":"871910558cbfa0fb29b2910767898b92","TunnelSecret":"jqB858xvSKw0NExNL3HxRj95fWkHXcFLpSYa9Dd2Xcc=","TunnelID":"9565f11b-435e-49a0-9e39-4a78a900c45f"} \
+    WEB_USERNAME=admin \
+    WEB_PASSWORD=hubin162577
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
